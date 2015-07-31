@@ -18,7 +18,7 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 [button buttonWarning]              // 警告
 [button buttonDanger]               // 危险
 ```
-&nbsp;&nbsp不可点击为半透明效果<br>
+&nbsp;&nbsp;不可点击为半透明效果<br>
 ```
 [button buttonDefaultEnable:NO]
 ```
@@ -26,7 +26,8 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 ### 使用背景加图标
 *&nbsp;导入字体到项目中<br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/addfont.png)
-   ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/addfont2.png)
+*&nbsp;info.plist配置字体<br>  
+   ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/add_font2.png)
 *nbsp;调用方法（根据图标代码选择图标）<br>
 ```
 [button buttonAddIcon:@"fa-apple" isBefore:YES]    // 选择苹果图标，置前
