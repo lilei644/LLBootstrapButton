@@ -5,6 +5,33 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 &nbsp;&nbsp;先上效果图，共6中风格，每种分正常，高亮，不可点击三种状态，也可添加图标<br><br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/LLBootstrapButton.png)
 ## 使用方法
+### 使用背景
 ```
 [button buttonDefault]
 ```
+&nbsp;&nbsp;分为6中风格,默认是可点击<br>
+```
+[button buttonDefault]              // 默认
+[button buttonPrimary]              // 原色
+[button buttonSuccess]              // 成功
+[button buttonInfo]                 // 消息
+[button buttonWarning]              // 警告
+[button buttonDanger]               // 危险
+```
+&nbsp;&nbsp不可点击为半透明效果<br>
+```
+[button buttonDefaultEnable:NO]
+```
+<br><br>
+### 使用背景加图标
+*&nbsp;导入字体到项目中<br>
+   ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/addfont.png)
+   ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/addfont2.png)
+*nbsp;调用方法（根据图标代码选择图标）<br>
+```
+[button buttonAddIcon:@"fa-apple" isBefore:YES]    // 选择苹果图标，置前
+```
+*&nbsp;支持图标可达300多种，符合大部分需求<br>
+   ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/fontIcon.png)
+&nbsp;&nbsp;图标代码打开资源文件中的htm文件即可显示所有图标
+<br><br><br>
