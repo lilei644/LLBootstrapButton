@@ -24,16 +24,18 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 ```
 <br><br>
 ### 添加图标
-*&nbsp;导入字体到项目中<br>
+* 导入字体到项目中<br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/addfont.png)
-*&nbsp;info.plist配置字体<br>  
+* info.plist配置字体<br>  
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/add_font2.png)
-*nbsp;调用方法（根据图标代码选择图标）<br>
+* 调用方法（根据图标代码选择图标）<br>
 ```
 [button buttonAddIcon:@"fa-apple" isBefore:YES]    // 选择苹果图标，置前
 ```
-*&nbsp;支持图标可达300多种，符合大部分需求<br>
+* 支持图标可达300多种，符合大部分需求<br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/fontIcon.png)
 &nbsp;&nbsp;图标代码打开资源文件中的htm文件即可显示所有图标<br>
 `使用注意：由于图标为文字生成，所以调用前若修改字体则需在添加图标前修改`
-<br><br><br>
+<br><br>
+`*************************希望大家以后共同学习，做出更优秀的APP*************************`
+<br>
