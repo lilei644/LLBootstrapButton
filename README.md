@@ -22,10 +22,7 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 ```
 [button buttonDefaultEnable:NO]
 ```
-<br>
-```
-[textview textWithIcon:@"fa-apple"];
-```
+
 
 <br><br>
 ### 添加图标
@@ -36,6 +33,10 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 * 调用方法（根据图标代码选择图标）<br>
 ```
 [button buttonAddIcon:@"fa-apple" isBefore:YES]    // 选择苹果图标，置前
+```
+<br>
+```
+[textview textWithIcon:@"fa-apple"];    // UITextView直接显示图标
 ```
 * 支持图标可达300多种，符合大部分需求<br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/fontIcon.png)
