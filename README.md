@@ -7,20 +7,20 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 ## 使用方法
 ### 添加背景效果
 ```
-[button buttonDefault]
+[button bs_buttonDefault]
 ```
 &nbsp;&nbsp;分为6中风格,默认是可点击<br>
 ```
-[button buttonDefault]              // 默认
-[button buttonPrimary]              // 原色
-[button buttonSuccess]              // 成功
-[button buttonInfo]                 // 消息
-[button buttonWarning]              // 警告
-[button buttonDanger]               // 危险
+[button bs_buttonDefault]              // 默认
+[button bs_buttonPrimary]              // 原色
+[button bs_buttonSuccess]              // 成功
+[button bs_buttonInfo]                 // 消息
+[button bs_buttonWarning]              // 警告
+[button bs_buttonDanger]               // 危险
 ```
 &nbsp;&nbsp;不可点击为半透明效果<br>
 ```
-[button buttonDefaultEnable:NO]
+[button bs_buttonDefaultEnable:NO]
 ```
 
 
@@ -32,7 +32,7 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/add_font2.png)
 * 调用方法（根据图标代码选择图标）<br>
 ```
-[button buttonAddIcon:@"fa-apple" isBefore:YES]    // 选择苹果图标，置前
+[button bs_buttonAddIcon:@"fa-apple" isBefore:YES]    // 选择苹果图标，置前
 ```
 <br>
 ```
