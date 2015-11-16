@@ -15,9 +15,9 @@
 		847F22341B6A32AB00A4BDAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847F22321B6A32AB00A4BDAC /* LaunchScreen.xib */; };
 		847F22401B6A32AB00A4BDAC /* TestButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F223F1B6A32AB00A4BDAC /* TestButtonTests.m */; };
 		847F224A1B6A32C600A4BDAC /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 847F22491B6A32C600A4BDAC /* fontawesome-webfont.ttf */; };
-		847F224D1B6A32DB00A4BDAC /* UIButton+LLBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F224C1B6A32DB00A4BDAC /* UIButton+LLBootstrap.m */; };
 		84802DF81BF9BF6700DF6D78 /* NSString+LLBootstrapString.m in Sources */ = {isa = PBXBuildFile; fileRef = 84802DF71BF9BF6700DF6D78 /* NSString+LLBootstrapString.m */; settings = {ASSET_TAGS = (); }; };
 		84802DFB1BF9C2E100DF6D78 /* UITextView+LLBootstrapText.m in Sources */ = {isa = PBXBuildFile; fileRef = 84802DFA1BF9C2E100DF6D78 /* UITextView+LLBootstrapText.m */; settings = {ASSET_TAGS = (); }; };
+		84802DFE1BF9CB5800DF6D78 /* UIButton+LLBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 84802DFD1BF9CB5800DF6D78 /* UIButton+LLBootstrap.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +45,12 @@
 		847F223E1B6A32AB00A4BDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847F223F1B6A32AB00A4BDAC /* TestButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestButtonTests.m; sourceTree = "<group>"; };
 		847F22491B6A32C600A4BDAC /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
-		847F224B1B6A32DB00A4BDAC /* UIButton+LLBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+LLBootstrap.h"; path = "../UIButton+LLBootstrap.h"; sourceTree = "<group>"; };
-		847F224C1B6A32DB00A4BDAC /* UIButton+LLBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LLBootstrap.m"; path = "../UIButton+LLBootstrap.m"; sourceTree = "<group>"; };
 		84802DF61BF9BF6700DF6D78 /* NSString+LLBootstrapString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LLBootstrapString.h"; sourceTree = "<group>"; };
 		84802DF71BF9BF6700DF6D78 /* NSString+LLBootstrapString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLBootstrapString.m"; sourceTree = "<group>"; };
 		84802DF91BF9C2E100DF6D78 /* UITextView+LLBootstrapText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LLBootstrapText.h"; sourceTree = "<group>"; };
 		84802DFA1BF9C2E100DF6D78 /* UITextView+LLBootstrapText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LLBootstrapText.m"; sourceTree = "<group>"; };
+		84802DFC1BF9CB5800DF6D78 /* UIButton+LLBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LLBootstrap.h"; sourceTree = "<group>"; };
+		84802DFD1BF9CB5800DF6D78 /* UIButton+LLBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LLBootstrap.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +135,8 @@
 		84802DF21BF9BD9E00DF6D78 /* LLBootstrap */ = {
 			isa = PBXGroup;
 			children = (
-				847F224B1B6A32DB00A4BDAC /* UIButton+LLBootstrap.h */,
-				847F224C1B6A32DB00A4BDAC /* UIButton+LLBootstrap.m */,
+				84802DFC1BF9CB5800DF6D78 /* UIButton+LLBootstrap.h */,
+				84802DFD1BF9CB5800DF6D78 /* UIButton+LLBootstrap.m */,
 				84802DF61BF9BF6700DF6D78 /* NSString+LLBootstrapString.h */,
 				84802DF71BF9BF6700DF6D78 /* NSString+LLBootstrapString.m */,
 				84802DF91BF9C2E100DF6D78 /* UITextView+LLBootstrapText.h */,
@@ -246,9 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847F224D1B6A32DB00A4BDAC /* UIButton+LLBootstrap.m in Sources */,
 				847F222C1B6A32AB00A4BDAC /* ViewController.m in Sources */,
 				84802DF81BF9BF6700DF6D78 /* NSString+LLBootstrapString.m in Sources */,
+				84802DFE1BF9CB5800DF6D78 /* UIButton+LLBootstrap.m in Sources */,
 				847F22291B6A32AB00A4BDAC /* AppDelegate.m in Sources */,
 				847F22261B6A32AB00A4BDAC /* main.m in Sources */,
 				84802DFB1BF9C2E100DF6D78 /* UITextView+LLBootstrapText.m in Sources */,

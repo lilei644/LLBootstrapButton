@@ -22,6 +22,11 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 ```
 [button buttonDefaultEnable:NO]
 ```
+<br>
+```
+[textview textWithIcon:@"fa-apple"];
+```
+
 <br><br>
 ### 添加图标
 * 导入字体到项目中<br>
