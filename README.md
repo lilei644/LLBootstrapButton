@@ -25,10 +25,8 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 
 <br><br>
 ### 添加图标
-* 导入字体到项目中<br>
-   ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/addfont.png)
-* info.plist配置字体<br>  
-   ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/add_font2.png)
+* 导入Bundle到项目中<br>
+   ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/addfont.png) 
 * 调用方法（根据图标代码选择图标）<br>
 ```
 // 使用图标签需要先设置字体
