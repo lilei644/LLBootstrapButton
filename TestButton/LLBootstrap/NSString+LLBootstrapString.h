@@ -12,6 +12,7 @@
 
 
 #pragma 获取图标值
-+ (NSString *)stringWithIcon:(NSString *)icon;
+
+@property (nonatomic, readonly) NSString *bs_awesomeIconRepresentation;
 
 @end

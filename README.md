@@ -11,18 +11,13 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 ```
 &nbsp;&nbsp;分为6中风格,默认是可点击<br>
 ```
-[button bs_buttonDefault]              // 默认
-[button bs_buttonPrimary]              // 原色
-[button bs_buttonSuccess]              // 成功
-[button bs_buttonInfo]                 // 消息
-[button bs_buttonWarning]              // 警告
-[button bs_buttonDanger]               // 危险
+[button bs_configureAsDefaultStyle]              // 默认
+[button bs_configureAsPrimaryStyle]              // 原色
+[button bs_configureAsSuccessStyle]              // 成功
+[button bs_configureAsInfoStyle]                 // 消息
+[button bs_configureAsWarningStyle]              // 警告
+[button bs_configureAsDangerStyle]               // 危险
 ```
-&nbsp;&nbsp;不可点击为半透明效果<br>
-```
-[button bs_buttonDefaultEnable:NO]
-```
-
 
 <br><br>
 ### 添加图标
@@ -32,14 +27,22 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/add_font2.png)
 * 调用方法（根据图标代码选择图标）<br>
 ```
-[button bs_buttonAddIcon:@"fa-apple" isBefore:YES]    // 选择苹果图标，置前
+// 使用图标签需要先设置字体
+UIFont *font = [UIFont bs_awesomeFontOfSize:16.f];
 ```
 <br>
 ```
-[textview textWithIcon:@"fa-apple"];    // UITextView直接显示图标
+[button.titleLabel setFont:[UIFont bs_awesomeFontOfSize:16.f]];
+// 选择苹果图标，置前
+[button setTitle:[NSString stringWithFormat:@"%@ Primary", @"fa-apple".bs_awesomeIconRepresentation] forState:UIControlStateNormal];    
+```
+<br>
+```
+// UITextView直接显示图标
+[textview  setText:[NSString stringWithFormat:@"这是一个%@图标",@"fa-github-alt".bs_awesomeIconRepresentation]];    
 ```
 * 支持图标可达300多种，符合大部分需求<br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/fontIcon.png)
 &nbsp;&nbsp;图标代码打开资源文件中的htm文件即可显示所有图标<br>
-`使用注意：由于图标为文字生成，所以调用前若修改字体大小则需在添加图标前修改`
+`使用注意：由于图标为文字生成，所以必须设置字体`
 <br><br>
