@@ -11,7 +11,7 @@
 @interface UIFont (LLBootstrapFont)
 
 
-#pragma 或许图标的字体大小
+#pragma 获取图标字体及大小
 + (instancetype)bs_awesomeFontOfSize:(CGFloat)size;
 
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		843E2AD31BFABFFA00427CF4 /* LLBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E2AD21BFABFFA00427CF4 /* LLBootstrap.m */; settings = {ASSET_TAGS = (); }; };
+		843E2B311BFB14BA00427CF4 /* NSBundle+LLBootstrapBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E2B301BFB14BA00427CF4 /* NSBundle+LLBootstrapBundle.m */; settings = {ASSET_TAGS = (); }; };
+		843E2B331BFB15B600427CF4 /* LLBootstrapFont.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 843E2B321BFB15B600427CF4 /* LLBootstrapFont.bundle */; settings = {ASSET_TAGS = (); }; };
 		845A65831BFA2F1500CC3C65 /* UIFont+LLBootstrapFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 845A65821BFA2F1500CC3C65 /* UIFont+LLBootstrapFont.m */; settings = {ASSET_TAGS = (); }; };
 		847F22261B6A32AB00A4BDAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F22251B6A32AB00A4BDAC /* main.m */; };
 		847F22291B6A32AB00A4BDAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F22281B6A32AB00A4BDAC /* AppDelegate.m */; };
@@ -16,7 +18,6 @@
 		847F22311B6A32AB00A4BDAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847F22301B6A32AB00A4BDAC /* Images.xcassets */; };
 		847F22341B6A32AB00A4BDAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847F22321B6A32AB00A4BDAC /* LaunchScreen.xib */; };
 		847F22401B6A32AB00A4BDAC /* TestButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F223F1B6A32AB00A4BDAC /* TestButtonTests.m */; };
-		847F224A1B6A32C600A4BDAC /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 847F22491B6A32C600A4BDAC /* fontawesome-webfont.ttf */; };
 		84802DF81BF9BF6700DF6D78 /* NSString+LLBootstrapString.m in Sources */ = {isa = PBXBuildFile; fileRef = 84802DF71BF9BF6700DF6D78 /* NSString+LLBootstrapString.m */; settings = {ASSET_TAGS = (); }; };
 		84802DFE1BF9CB5800DF6D78 /* UIButton+LLBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 84802DFD1BF9CB5800DF6D78 /* UIButton+LLBootstrap.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -34,6 +35,9 @@
 /* Begin PBXFileReference section */
 		843E2AD11BFABFFA00427CF4 /* LLBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBootstrap.h; sourceTree = "<group>"; };
 		843E2AD21BFABFFA00427CF4 /* LLBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBootstrap.m; sourceTree = "<group>"; };
+		843E2B2F1BFB14BA00427CF4 /* NSBundle+LLBootstrapBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LLBootstrapBundle.h"; sourceTree = "<group>"; };
+		843E2B301BFB14BA00427CF4 /* NSBundle+LLBootstrapBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LLBootstrapBundle.m"; sourceTree = "<group>"; };
+		843E2B321BFB15B600427CF4 /* LLBootstrapFont.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLBootstrapFont.bundle; sourceTree = "<group>"; };
 		845A65811BFA2F1500CC3C65 /* UIFont+LLBootstrapFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LLBootstrapFont.h"; sourceTree = "<group>"; };
 		845A65821BFA2F1500CC3C65 /* UIFont+LLBootstrapFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LLBootstrapFont.m"; sourceTree = "<group>"; };
 		847F22201B6A32AB00A4BDAC /* TestButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,7 +53,6 @@
 		847F22391B6A32AB00A4BDAC /* TestButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847F223E1B6A32AB00A4BDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847F223F1B6A32AB00A4BDAC /* TestButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestButtonTests.m; sourceTree = "<group>"; };
-		847F22491B6A32C600A4BDAC /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		84802DF61BF9BF6700DF6D78 /* NSString+LLBootstrapString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LLBootstrapString.h"; sourceTree = "<group>"; };
 		84802DF71BF9BF6700DF6D78 /* NSString+LLBootstrapString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLBootstrapString.m"; sourceTree = "<group>"; };
 		84802DFC1BF9CB5800DF6D78 /* UIButton+LLBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LLBootstrap.h"; sourceTree = "<group>"; };
@@ -95,15 +98,14 @@
 		847F22221B6A32AB00A4BDAC /* TestButton */ = {
 			isa = PBXGroup;
 			children = (
+				84802DF21BF9BD9E00DF6D78 /* LLBootstrap */,
 				847F22271B6A32AB00A4BDAC /* AppDelegate.h */,
 				847F22281B6A32AB00A4BDAC /* AppDelegate.m */,
-				84802DF21BF9BD9E00DF6D78 /* LLBootstrap */,
 				847F222A1B6A32AB00A4BDAC /* ViewController.h */,
 				847F222B1B6A32AB00A4BDAC /* ViewController.m */,
 				847F222D1B6A32AB00A4BDAC /* Main.storyboard */,
 				847F22301B6A32AB00A4BDAC /* Images.xcassets */,
 				847F22321B6A32AB00A4BDAC /* LaunchScreen.xib */,
-				847F22491B6A32C600A4BDAC /* fontawesome-webfont.ttf */,
 				847F22231B6A32AB00A4BDAC /* Supporting Files */,
 			);
 			path = TestButton;
@@ -112,6 +114,7 @@
 		847F22231B6A32AB00A4BDAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				843E2B321BFB15B600427CF4 /* LLBootstrapFont.bundle */,
 				847F22241B6A32AB00A4BDAC /* Info.plist */,
 				847F22251B6A32AB00A4BDAC /* main.m */,
 			);
@@ -138,6 +141,8 @@
 		84802DF21BF9BD9E00DF6D78 /* LLBootstrap */ = {
 			isa = PBXGroup;
 			children = (
+				843E2B2F1BFB14BA00427CF4 /* NSBundle+LLBootstrapBundle.h */,
+				843E2B301BFB14BA00427CF4 /* NSBundle+LLBootstrapBundle.m */,
 				84802DFC1BF9CB5800DF6D78 /* UIButton+LLBootstrap.h */,
 				84802DFD1BF9CB5800DF6D78 /* UIButton+LLBootstrap.m */,
 				84802DF61BF9BF6700DF6D78 /* NSString+LLBootstrapString.h */,
@@ -231,8 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				847F222F1B6A32AB00A4BDAC /* Main.storyboard in Resources */,
-				847F224A1B6A32C600A4BDAC /* fontawesome-webfont.ttf in Resources */,
 				847F22341B6A32AB00A4BDAC /* LaunchScreen.xib in Resources */,
+				843E2B331BFB15B600427CF4 /* LLBootstrapFont.bundle in Resources */,
 				847F22311B6A32AB00A4BDAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +263,7 @@
 				847F22291B6A32AB00A4BDAC /* AppDelegate.m in Sources */,
 				847F22261B6A32AB00A4BDAC /* main.m in Sources */,
 				843E2AD31BFABFFA00427CF4 /* LLBootstrap.m in Sources */,
+				843E2B311BFB14BA00427CF4 /* NSBundle+LLBootstrapBundle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
