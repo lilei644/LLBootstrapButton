@@ -5,6 +5,7 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 &nbsp;&nbsp;先上效果图，共6中风格，每种分正常，高亮，不可点击三种状态，也可添加图标<br><br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/LLBootstrapButton.png)
 ## 使用方法
+* #import "LLBootstrap.h"
 ### 添加背景效果
 ```
 [button bs_configureAsDefaultStyle]
