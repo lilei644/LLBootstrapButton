@@ -7,7 +7,7 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 ## 使用方法
 ### 添加背景效果
 ```
-[button bs_buttonDefault]
+[button bs_configureAsDefaultStyle]
 ```
 &nbsp;&nbsp;分为6中风格,默认是可点击<br>
 ```
