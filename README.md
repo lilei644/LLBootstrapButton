@@ -50,3 +50,5 @@ UIFont *font = [UIFont bs_awesomeFontOfSize:16.f];
 &nbsp;&nbsp;图标代码打开资源文件中的htm文件即可显示所有图标<br>
 `使用注意：由于图标为文字生成，所以必须设置字体`
 <br><br>
+### 添加图标
+在此特别感谢[Sunny阳神的建议]（https://github.com/forkingdog），作为新人会更努力学习的！
