@@ -5,6 +5,11 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 &nbsp;&nbsp;先上效果图，共6中风格，每种分正常，高亮，也可添加图标<br><br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/LLBootstrapButton.png)
 ## 使用方法
+* CocoasPod(若未获取成功需重新 pod setup )
+```
+pod "LLBootstrapButton"
+```
+CocoasPod导入后则无需导入Bundle,可直接使用
 * 导入
 ```
 #import "LLBootstrap.h"
@@ -25,7 +30,7 @@ Bootstrap 3.0扁平化风格按钮，一句代码调用<br>
 
 <br><br>
 ### 添加图标
-* 导入Bundle到项目中<br>
+* 导入Bundle到项目中(若使用CocoasPod集成则无需此操作)<br>
    ![image](https://github.com/lilei644/LLBootstrapButton/blob/master/Img/addfont.png) 
 * 调用方法（根据图标代码选择图标）<br>
 ```
